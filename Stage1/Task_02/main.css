@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Microsoft YaHei, sans-serif;
+    background: #dedede;
+    line-height: 1.5;
+}
+.header {
+    position: relative;
+    height: 60px;
+    background: #333333;
+}
+.header .logo img {
+    padding-left: 30px;
+    height: 58px;
+}
+.header .top-nav {
+    float: right;
+    margin-top: -55px;
+
+}
+.header .top-nav li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+}
+.header .top-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.header .top-nav li:hover {
+    border-bottom: 1px solid #716f76;
+    background: #6c7289;
+    border-radius: 10px;
+}
+
+/*标头结束**************************************/
+
+ /*主体部分****************************************/
+.container {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 2px 1px 1px 2px #7c7c7c;
+}
+.content h2 {
+    text-align: left;
+    font-size: 20px;
+    padding: 15px 0;
+}
+.content h3 {
+    text-align: left;
+    font-size: 16px;
+    padding: 10px 0;
+    color: #828282;
+}
+.content p {
+    font-size: 15px;
+    text-indent: 2em;
+    line-height: 25px;
+}
+.content .author {
+    font-size: 12px;
+    color: #828282;
+    line-height: 25px;
+}
+.container ul li{
+    list-style: none;
+    margin: 10px 30px ;
+}
+.picture {
+    border: 1px solid #4b4b4b;
+    margin: 20px;
+    width: 240px;
+}
+.picture p {
+    text-align: center;
+}
+.picture img {
+    width: 200px;
+    margin: 20px;
+}
+.container ol {
+    margin: 10px 50px;
+    font-weight: 600;
+}
+.container table {
+    border: 1px solid #fff;
+    width: 100%;
+    border-spacing: 0;
+}
+.container table thead tr th {
+    background-color: black;
+    border: 1px solid #dedede;
+    color: white;
+}
+.container table tbody tr td {
+    border:1px solid #dedede;
+}
+.container table tfoot {
+    font-weight: 600;
+    background-color: #dedede;
+    border: 1px solid #ccc;
+}
+.container h4 {
+    padding-left: 10px;
+    border-left:3px solid #ccc;
+}
+form {
+    width: 100%;
+    min-width: 300px;
+}
+form>div {
+    margin: 10px 0;
+}
+.bot {
+    vertical-align: bottom;
+}
+.inp {
+    width: 30%;
+    text-align: right;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+    margin-bottom: 0;
+}
+.tip {
+    font-size: 13px;
+    color: gray;
+    margin-left: 31%;
+    margin-top: 10px;
+}
+textarea {
+    margin-top:10px;
+    width: 50%;
+    height: 100px;
+}
+.submit {
+    width: 100%;
+    height: 40px;
+    background-color: #274aae;
+    color: #fff;
+    cursor: pointer;
+    border-radius:8px;
+    border: 1px solid #274aae;
+    font-size: 16px;
+    font-weight: 800;
+}
+.submit:hover {
+    background: #0063dc;;
+}
+.footer {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 60px;
+}
+.name {
+    color: #fff;
+    text-decoration: none;
+}
