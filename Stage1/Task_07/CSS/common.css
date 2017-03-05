@@ -1,0 +1,73 @@
+.public-header{
+    height: 57px;
+}
+.public-header .header-logo{
+    float: left;
+    margin-top:13px;
+    width: 31px;
+    height: 31px;
+    background: url("../imges/index-header-logo.png");
+}
+.public-header .new-world{
+    font-family: "黑体";
+    position: absolute;
+    left: 42px;
+    top:19px;
+    font-size: 21px;
+}
+.public-header .header-nav{
+    float: right;
+}
+.public-header .header-nav .item{
+    float: left;
+    font-size: 14px;
+    margin-top:18px;
+
+
+}
+.header-nav .item a{
+    text-align: center;
+    width: 65px;
+    color: #000;
+    margin-right: 20px;
+    border-bottom:3px solid #fff;
+    padding-bottom: 15px;
+}
+.header-nav .item a:hover{
+    border-bottom:3px solid #f64f4d;
+    color: #f64f4d;
+}
+.public-header .header-nav .log_in{
+    font-size: 14px;
+    float: left;
+    margin-top: 18px;
+    margin-left:5px;
+}
+.public-header .header-nav .log_in a{
+    color:#ea6664;
+    font-family:"MIcrosoft YaHei";
+}
+.public-container{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+}
+.public-footer{
+    height: 58px;
+    background: #2f2f38;
+    width: 100%;
+}
+.public-footer .time{
+    float: left;
+    color: #fff;
+    font-size: 12px;
+    font-family:"宋体";
+    margin-top: 32px;
+}
+.public-footer .return a{
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    font-family:"宋体";
+    margin-top: 32px;
+}
